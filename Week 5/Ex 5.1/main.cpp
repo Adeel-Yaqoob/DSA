@@ -13,7 +13,8 @@ int main() {
 
     string task;
 
-    cout << "Removing from PQue:\n\n";
+    cout << "Removing from ";
+    cout << "PQue:\n\n";
     while (!pq.IsEmpty()) {
         pq.Remove(task);
         cout << task << endl;
